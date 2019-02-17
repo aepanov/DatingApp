@@ -27,6 +27,5 @@ export class RegisterComponent implements OnInit {
 
   cancel() {
     this.cancelRegister.emit(false);
-    console.log('cancelled');
   }
 }
